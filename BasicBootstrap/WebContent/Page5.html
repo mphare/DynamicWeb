@@ -22,14 +22,39 @@
 		<li><a href="Page2.html">Layouts</a></li>
 		<li><a href="Page3.html">Tables</a></li>
 		<li><a href="Page4.html">Forms</a></li>
-		<li class="active"><a href="Page5.html">Other</a></li>
+		<li class="active"><a href="Page5.html">Navigation</a></li>
+		<li><a href="Page6.html">Buttons</a></li>
   </ul>
   <div class="page-header">
-    <h1>Page 5 <small>Other Stuff</small></h1>
+    <h1>Page 5 <small>Navigation</small></h1>
     </div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">Box 1</div>
+					<div class="col-md-12">
+				<nav role="navigator" class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" data-target="#navbarCollapse"
+							data-toggle="collapse" class="navbar-toggle">
+							<span class="sr-only">Toggle Navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand">Brand</a>
+					</div>
+					<div id="navbarCollapse" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Profile</a></li>
+							<li><a href="#">Message</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Login</a></li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+		
 			<div class="col-md-4">Box 2</div>
 			<div class="col-md-4">Box 3</div>
 			<div class="clearfix"></div>
